@@ -12,3 +12,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#quote-box {
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 5px #e0e0e0;
+}
+
+#text {
+  width: 100%;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+#author {
+  width: 100%;
+  font-weight: bold;
+  direction: rtl;
+  margin-bottom: 16px;
+}
+
+#new-quote,
+#tweet-quote {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+#new-quote:hover,
+#tweet-quote:hover {
+  background-color: #dfdfff;
+  color: #202020;
+  box-shadow: 0 4px 5px #e0e0e0;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  text-decoration: none;
+}

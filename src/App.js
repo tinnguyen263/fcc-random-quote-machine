@@ -32,6 +32,7 @@ class App extends Component {
           <div id="new-quote" onClick={this.nextQuote}>
             Change
           </div>
+          <sp> or </sp>
           <a id="tweet-quote" href="https://twitter.com/intent/tweet">
             Tweet
           </a>
