@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import quotes from "./quotes";
 
 const randomQuoteFrom = quotes => {
